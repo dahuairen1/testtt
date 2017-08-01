@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+		<!-- settings-->
+		<settings>
+			<!-- 打开延迟加载的开关 -->
+			<setting name="lazyLoadingEnabled" value="true"/>
+			<!-- 懒加载代理方式 CGLIB OR JAVASSIS-->
+			<setting name="proxyFactory" value="CGLIB"/>
+			<!-- 指定出发加载的方法 -->
+			<setting name="lazyLoadTriggerMethods" value="equals,toString"/>
+		</settings>
+
+
+	<typeAliases>
+		
+	</typeAliases>
+
+</configuration>
